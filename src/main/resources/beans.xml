@@ -86,5 +86,22 @@
   >
   </bean>
 
+  <!-- scope -->
+  <!-- singleton -->
+  <bean id="beanDemo5" class="com.tao.pojo.Demo"
+    c:name="beanDemo5"
+    c:status="555"
+    scope="singleton"
+  >
+  </bean>
+
+  <!-- singleton -->
+  <bean id="beanDemo6" class="com.tao.pojo.Demo"
+    c:name="beanDemo6"
+    c:status="666"
+    scope="prototype"
+  >
+  </bean>
+
 
 </beans>

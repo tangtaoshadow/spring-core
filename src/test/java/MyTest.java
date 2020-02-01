@@ -57,8 +57,31 @@ public class MyTest {
     Demo demo = applicationContext.getBean("beanDemo3", Demo.class);
     log.info("获取 p-namespace 注入的 bean 对象 beanDemo3 " + demo.toString());
 
-    // 获取 p-namespace 注入的 bean 对象
+    // 获取 c-namespace 注入的 bean 对象
     demo = applicationContext.getBean("beanDemo4", Demo.class);
     log.info("获取 c-namespace 注入的 bean 对象 beanDemo4 " + demo.toString());
+  }
+
+  //  测试scope
+  @Test
+  public void testScope() {
+    // 获取Spring的上下文对象
+    ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");
+
+    Demo demo = null;
+
+    log.info("获取 c-namespace 注入的 bean 对象 scope=\"singleton\" ");
+    for (int i = 0; i < 3; i++) {
+      // 获取 c-namespace 注入的 bean 对象 scope="singleton"
+      demo = applicationContext.getBean("beanDemo5", Demo.class);
+      log.info("beanDemo5 \n hashCode:" + demo.hashCode() + "\n" + demo.toString());
+    }
+
+    log.info("获取 c-namespace 注入的 bean 对象 scope=\"prototype\" ");
+    for (int i = 0; i < 3; i++) {
+      // 获取 c-namespace 注入的 bean 对象 scope="singleton"
+      demo = applicationContext.getBean("beanDemo6", Demo.class);
+      log.info("beanDemo6 \n hashCode:" + demo.hashCode() + "\n" + demo.toString());
+    }
   }
 }
