@@ -1,6 +1,7 @@
 import com.tao.pojo.Demo;
 import com.tao.pojo.Person;
 import java.util.logging.Logger;
+import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -44,5 +45,19 @@ public class MyTest {
       properties={prop2=properties 2, prop1=properties 1, prop3=properties 3}
     )
      */
+
+    System.out.println();
+    // 获取 person
+    demo = (Demo) applicationContext.getBean("demo2020");
+    log.info("通过name获取bean " + demo.toString());
+  }
+
+  @Test
+  public void test() {
+    // 获取Spring的上下文对象
+    ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");
+    // 获取spring管理的bean 对象
+    Demo demo = applicationContext.getBean("beanDemo3", Demo.class);
+    log.info("获取 beanDemo3 " + demo.toString());
   }
 }
