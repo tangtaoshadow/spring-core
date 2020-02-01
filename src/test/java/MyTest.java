@@ -1,5 +1,6 @@
 import com.tao.pojo.Demo;
 import com.tao.pojo.Person;
+import com.tao.pojo.Student;
 import java.util.logging.Logger;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
@@ -83,5 +84,17 @@ public class MyTest {
       demo = applicationContext.getBean("beanDemo6", Demo.class);
       log.info("beanDemo6 \n hashCode:" + demo.hashCode() + "\n" + demo.toString());
     }
+  }
+
+  @Test
+  public void testAutowire() {
+    // 获取Spring的上下文对象
+    ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");
+
+    Student student = null;
+
+    student = applicationContext.getBean("student1", Student.class);
+
+    log.info("获取 autowire=\"byName\" 注入的 bean 对象" + student);
   }
 }

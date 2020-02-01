@@ -103,12 +103,20 @@
   >
   </bean>
 
+  <!-- 通过 byName 自动装配的 bean Demo -->
+  <!-- c-namespace -->
+  <bean id="demo" class="com.tao.pojo.Demo"
+    c:name="autowireDemo"
+    c:status="100"
+  >
+  </bean>
+
+
   <!-- autowire -->
   <bean id="student1" class="com.tao.pojo.Student"
     p:name="student1"
     autowire="byName"
   >
-
   </bean>
 
 </beans>
