@@ -20,7 +20,54 @@
   <!-- 使用alias 取别名 -->
   <alias name="beanDemo2" alias="aliasBeanDemo2"/>
 
-  <!-- 导入 -->
+  <!-- 导入  beans2.xml -->
   <import resource="beans2.xml"/>
 
+  <!-- 创建 Person -->
+  <bean id="person1" class="com.tao.pojo.Person">
+    <property name="name" value="tangtao"/>
+    <property name="age" value="22"/>
+    <property name="demo" ref="beanDemo2"/>
+    <!-- 数组 -->
+    <property name="strings">
+      <array>
+        <value>string1</value>
+        <value>string2</value>
+        <value>string3</value>
+      </array>
+    </property>
+
+    <property name="list">
+      <list>
+        <value>this is list 1 .</value>
+        <value>this is list 2 .</value>
+        <value>this is list 3 .</value>
+      </list>
+    </property>
+
+    <property name="set">
+      <set>
+        <value>set 1</value>
+        <value>set 2</value>
+        <value>set 3</value>
+      </set>
+    </property>
+
+    <property name="map">
+      <map>
+        <entry key="key1" value="map1"/>
+        <entry key="key2" value="map2"/>
+        <entry key="key3" value="map3"/>
+      </map>
+    </property>
+
+    <property name="properties">
+      <props>
+        <prop key="prop1">properties 1</prop>
+        <prop key="prop2">properties 2</prop>
+        <prop key="prop3">properties 3</prop>
+      </props>
+    </property>
+
+  </bean>
 </beans>

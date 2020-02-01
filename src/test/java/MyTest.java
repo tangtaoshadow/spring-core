@@ -1,4 +1,5 @@
 import com.tao.pojo.Demo;
+import com.tao.pojo.Person;
 import java.util.logging.Logger;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -26,5 +27,22 @@ public class MyTest {
     // 通过beans2.xml获取bean
     demo = (Demo) applicationContext.getBean("aliasBeans2Demo");
     log.info("通过beans2.xml获取bean " + demo.toString());
+
+    System.out.println();
+    // 获取 person
+    Person person = (Person) applicationContext.getBean("person1");
+    log.info("通过id获取 Person " + person.toString());
+    /*
+    Person(
+      name=tangtao,
+      age=22,
+      strings=[string1, string2, string3],
+      demo=Demo(name=beanDemo 2, status=100),
+      list=[this is list 1 ., this is list 2 ., this is list 3 .],
+      set=[set 1, set 2, set 3],
+      map={key1=map1, key2=map2, key3=map3},
+      properties={prop2=properties 2, prop1=properties 1, prop3=properties 3}
+    )
+     */
   }
 }

@@ -13,7 +13,8 @@ import lombok.ToString;
 @Setter
 public class Person {
   private String name;
-  private int id;
+  private int age;
+  private String[] strings;
   private Demo demo;
   private List<String> list;
   private Set<String> set;
