@@ -103,5 +103,12 @@
   >
   </bean>
 
+  <!-- autowire -->
+  <bean id="student1" class="com.tao.pojo.Student"
+    p:name="student1"
+    autowire="byName"
+  >
+
+  </bean>
 
 </beans>
