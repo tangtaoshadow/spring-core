@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <!-- 由 spring 创建对象-->
+  <bean id="beanDemo" class="com.tao.pojo.Demo">
+    <!-- collaborators and configuration for this bean go here -->
+    <property name="name" value="demo1"/>
+  </bean>
+
+  <!-- 使用构造器 索引 -->
+  <bean id="beanDemo2" class="com.tao.pojo.Demo">
+    <constructor-arg index="0" value="beanDemo 2"/>
+    <constructor-arg index="1" value="100"/>
+  </bean>
+
+</beans>
