@@ -11,7 +11,7 @@
   </bean>
 
   <!-- 使用构造器 索引 -->
-  <bean id="beanDemo2" class="com.tao.pojo.Demo">
+  <bean id="beanDemo2" class="com.tao.pojo.Demo" name="demo2,d2,demo2020">
     <constructor-arg index="0" value="beanDemo 2"/>
     <constructor-arg index="1" value="100"/>
   </bean>
