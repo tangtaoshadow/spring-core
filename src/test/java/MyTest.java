@@ -15,8 +15,16 @@ public class MyTest {
     demo = (Demo) applicationContext.getBean("beanDemo2");
     log.info("获取beanDemo2 " + demo.toString());
 
-    // 通过别名获取bean
+    // 通过name获取bean
     demo = (Demo) applicationContext.getBean("demo2020");
-    log.info("通过别名获取bean " + demo.toString());
+    log.info("通过name获取bean " + demo.toString());
+    // 通过alias获取bean
+    demo = (Demo) applicationContext.getBean("aliasBeanDemo2");
+    log.info("通过alias获取bean " + demo.toString());
+
+    System.out.println();
+    // 通过beans2.xml获取bean
+    demo = (Demo) applicationContext.getBean("aliasBeans2Demo");
+    log.info("通过beans2.xml获取bean " + demo.toString());
   }
 }

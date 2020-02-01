@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="249e14b9-8172-48ed-b4f3-e882a77f9c1d" name="Default Changelist" comment="tangtao add at 2020-2-1 12:53:17">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="249e14b9-8172-48ed-b4f3-e882a77f9c1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tao/pojo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beans2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tao/pojo/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tao/pojo/Demo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MyTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="tangtao &lt;tangtao2099@outlook.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -44,7 +47,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1WtCREh6ILOnpg1n9LXbKiX7Z6V" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -116,10 +121,23 @@
       <workItem from="1580529027978" duration="167000" />
       <workItem from="1580529245205" duration="3398000" />
     </task>
+    <task id="LOCAL-00001" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 增加log4j&#10;updateTime: 2020-2-1 20:08:54">
+      <created>1580558969195</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580558969195</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 增加log4j&#10;updateTime: 2020-2-1 20:08:54" />
+    <option name="LAST_COMMIT_MESSAGE" value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 增加log4j&#10;updateTime: 2020-2-1 20:08:54" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springtaotest02$Demo.ic" NAME="Demo Coverage Results" MODIFIED="1580530266323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

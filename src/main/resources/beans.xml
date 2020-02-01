@@ -11,9 +11,22 @@
   </bean>
 
   <!-- 使用构造器 索引 -->
+  <!-- 配置多个名称 name="demo2,d2,demo2020" -->
   <bean id="beanDemo2" class="com.tao.pojo.Demo" name="demo2,d2,demo2020">
     <constructor-arg index="0" value="beanDemo 2"/>
     <constructor-arg index="1" value="100"/>
   </bean>
 
+  <!-- 使用alias 取别名 -->
+  <alias name="beanDemo2" alias="aliasBeanDemo2"/>
+
+  <!-- 导入  beans2.xml -->
+  <import resource="beans2.xml"/>
+
+  <!-- 创建 Person -->
+  <bean id="person1" class="com.tao.pojo.Person">
+    <property name="name" value="tangtao"/>
+
+
+  </bean>
 </beans>
