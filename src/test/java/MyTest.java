@@ -24,12 +24,10 @@ public class MyTest {
     demo = (Demo) applicationContext.getBean("aliasBeanDemo2");
     log.info("通过alias获取bean " + demo.toString());
 
-    System.out.println();
     // 通过beans2.xml获取bean
     demo = (Demo) applicationContext.getBean("aliasBeans2Demo");
     log.info("通过beans2.xml获取bean " + demo.toString());
 
-    System.out.println();
     // 获取 person
     Person person = (Person) applicationContext.getBean("person1");
     log.info("通过id获取 Person " + person.toString());
@@ -46,7 +44,6 @@ public class MyTest {
     )
      */
 
-    System.out.println();
     // 获取 person
     demo = (Demo) applicationContext.getBean("demo2020");
     log.info("通过name获取bean " + demo.toString());
@@ -56,8 +53,12 @@ public class MyTest {
   public void test() {
     // 获取Spring的上下文对象
     ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");
-    // 获取spring管理的bean 对象
+    // 获取 p-namespace 注入的 bean 对象
     Demo demo = applicationContext.getBean("beanDemo3", Demo.class);
-    log.info("获取 beanDemo3 " + demo.toString());
+    log.info("获取 p-namespace 注入的 bean 对象 beanDemo3 " + demo.toString());
+
+    // 获取 p-namespace 注入的 bean 对象
+    demo = applicationContext.getBean("beanDemo4", Demo.class);
+    log.info("获取 c-namespace 注入的 bean 对象 beanDemo4 " + demo.toString());
   }
 }
