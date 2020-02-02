@@ -1,6 +1,6 @@
 # spring-core 
 
-**Repository:** [Author: GitHub](https://github.com/tangtaoshadow/spring-core)  [<img style="width:25px;margin-bottom:5px;display:inline;" src="https://www.promiselee.cn/share_static/files/github/github-logo.svg"/>](https://github.com/tangtaoshadow/spring-core/tree/beans_xml)
+**Repository:** [Author: GitHub](https://github.com/tangtaoshadow/spring-core)  [<img style="width:25px;margin-bottom:5px;display:inline;" src="https://www.promiselee.cn/share_static/files/github/github-logo.svg"/>](https://github.com/tangtaoshadow/spring-core)
 
 **Introduction:**  对比官网 [spring-core](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html) ，实现**spring**代码
 
