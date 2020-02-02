@@ -1,6 +1,6 @@
 # spring-core 
 
-**Repository:** [Author: GitHub](https://github.com/tangtaoshadow/spring-core)  [<img style="width:25px;margin-bottom:5px;display:inline;margin-bottom:5px;" src="https://www.promiselee.cn/share_static/files/github/github-logo.svg"/>](https://github.com/tangtaoshadow/spring-core/tree/beans_xml)
+**Repository:** [Author: GitHub](https://github.com/tangtaoshadow/spring-core)  [<img style="width:25px;margin-bottom:5px;display:inline;margin-bottom:5px;" src="https://www.promiselee.cn/share_static/files/github/github-logo.svg"/>](https://github.com/tangtaoshadow/spring-core)
 
 **Introduction:**  对比官网 [spring-core](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html) ，实现**spring**代码
 
@@ -10,7 +10,7 @@
 
 **UpdateTime:**`2020-2-1 23:23:35`
 
-**Copyright:**  **唐涛** [HOME | 首页](https://www.promiselee.cn/tao) **©**  ***2020***  [<img style="width:35px;display:inline;" src="https://www.promiselee.cn/favicon.ico"/>](https://www.promiselee.cn/tao)   [<img style="width:25px;display:inline;margin-bottom:5px;" src="https://www.promiselee.cn/share_static/files/github/github-logo.svg"/>](https://github.com/tangtaoshadow/spring-core/tree/beans_xml)
+**Copyright:**  **唐涛** [HOME | 首页](https://www.promiselee.cn/tao) **©**  ***2020***  [<img style="width:35px;display:inline;" src="https://www.promiselee.cn/favicon.ico"/>](https://www.promiselee.cn/tao)   [<img style="width:25px;display:inline;margin-bottom:5px;" src="https://www.promiselee.cn/share_static/files/github/github-logo.svg"/>](https://github.com/tangtaoshadow/spring-core)
 
 **Email:**  <tangtao2099@outlook.com>
 
