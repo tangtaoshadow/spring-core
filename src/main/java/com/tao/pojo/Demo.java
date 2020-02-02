@@ -3,6 +3,7 @@ package com.tao.pojo;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @ToString
@@ -10,7 +11,10 @@ import org.springframework.stereotype.Component;
 @Setter
 @Component
 public class Demo {
+
+  @Value("Demo @value")
   private String name;
+
   private int status = -1;
 
   public Demo() {}

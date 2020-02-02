@@ -11,8 +11,11 @@ public class MyTest {
   public void test() {
     // 获取Spring的上下文对象
     ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");
-    // 获取 p-namespace 注入的 bean 对象
-    Student student = applicationContext.getBean("student", Student.class);
-    log.info("student " + student.toString());
+    Student student;
+    // 获取  bean 对象
+    for (int i = 0; i < 3; i++) {
+      student = applicationContext.getBean("student", Student.class);
+      log.info("student hashCode:" + student.hashCode() + "\n" + student.toString());
+    }
   }
 }
