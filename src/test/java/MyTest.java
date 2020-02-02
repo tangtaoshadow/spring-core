@@ -13,6 +13,6 @@ public class MyTest {
     ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");
     // 获取 p-namespace 注入的 bean 对象
     Student student = applicationContext.getBean("student01", Student.class);
-    log.info("获取 p-namespace 注入的 bean 对象 beanDemo3 " + student.toString());
+    log.info("获取 bean 对象 student01 " + student.toString());
   }
 }
