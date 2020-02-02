@@ -1,122 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
   xmlns:p="http://www.springframework.org/schema/p"
-  xmlns:c="http://www.springframework.org/schema/c"
   xsi:schemaLocation="http://www.springframework.org/schema/beans
-        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        https://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
-  <!-- 由 spring 创建对象-->
-  <bean id="beanDemo" class="com.tao.pojo.Demo">
-    <!-- collaborators and configuration for this bean go here -->
-    <property name="name" value="demo1"/>
+  <!-- 开启注解 -->
+  <context:annotation-config/>
+  <bean id="demo01" class="com.tao.pojo.Demo" p:name="demo01" p:status="1">
   </bean>
-
-  <!-- 使用构造器 索引 -->
-  <!-- 配置多个名称 name="demo2,d2,demo2020" -->
-  <bean id="beanDemo2" class="com.tao.pojo.Demo" name="demo2,d2,demo2020">
-    <constructor-arg index="0" value="beanDemo 2"/>
-    <constructor-arg index="1" value="100"/>
-  </bean>
-
-  <!-- 使用alias 取别名 -->
-  <alias name="beanDemo2" alias="aliasBeanDemo2"/>
-
-  <!-- 导入  beans2.xml -->
-  <import resource="beans2.xml"/>
-
-  <!-- 创建 Person -->
-  <bean id="person1" class="com.tao.pojo.Person">
-    <property name="name" value="tangtao"/>
-    <property name="age" value="22"/>
-    <property name="demo" ref="beanDemo2"/>
-    <!-- 数组 -->
-    <property name="strings">
-      <array>
-        <value>string1</value>
-        <value>string2</value>
-        <value>string3</value>
-      </array>
-    </property>
-
-    <property name="list">
-      <list>
-        <value>this is list 1 .</value>
-        <value>this is list 2 .</value>
-        <value>this is list 3 .</value>
-      </list>
-    </property>
-
-    <property name="set">
-      <set>
-        <value>set 1</value>
-        <value>set 2</value>
-        <value>set 3</value>
-      </set>
-    </property>
-
-    <property name="map">
-      <map>
-        <entry key="key1" value="map1"/>
-        <entry key="key2" value="map2"/>
-        <entry key="key3" value="map3"/>
-      </map>
-    </property>
-
-    <property name="properties">
-      <props>
-        <prop key="prop1">properties 1</prop>
-        <prop key="prop2">properties 2</prop>
-        <prop key="prop3">properties 3</prop>
-      </props>
-    </property>
-
-  </bean>
-  <!-- p-namespace -->
-  <bean id="beanDemo3" class="com.tao.pojo.Demo"
-    p:name="beanDemo3"
-    p:status="123"
-  >
-  </bean>
-
-  <!-- c-namespace -->
-  <bean id="beanDemo4" class="com.tao.pojo.Demo"
-    c:name="beanDemo4"
-    c:status="444"
-  >
-  </bean>
-
-  <!-- scope -->
-  <!-- singleton -->
-  <bean id="beanDemo5" class="com.tao.pojo.Demo"
-    c:name="beanDemo5"
-    c:status="555"
-    scope="singleton"
-  >
-  </bean>
-
-  <!-- singleton -->
-  <bean id="beanDemo6" class="com.tao.pojo.Demo"
-    c:name="beanDemo6"
-    c:status="666"
-    scope="prototype"
-  >
-  </bean>
-
-  <!-- 通过 byName 自动装配的 bean Demo -->
-  <!-- c-namespace -->
-  <bean id="demo" class="com.tao.pojo.Demo"
-    c:name="autowireDemo"
-    c:status="100"
-  >
-  </bean>
-
-
-  <!-- autowire -->
-  <bean id="student1" class="com.tao.pojo.Student"
-    p:name="student1"
-    autowire="byName"
-  >
+  <bean id="student01" class="com.tao.pojo.Student">
   </bean>
 
 </beans>
