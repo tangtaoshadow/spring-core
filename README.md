@@ -22,7 +22,7 @@
 
 # Branch
 
-##  beans_xml [<img style="width:35px;display:inline;margin-bottom:10px;" src="https://www.promiselee.cn/share_static/files/github/github-logo.svg"/>](https://github.com/tangtaoshadow/spring-core/tree/beans_xml)
+##  beans_xml [<img style="width:35px;display:inline;margin-bottom:5px;" src="https://www.promiselee.cn/share_static/files/github/github-logo.svg"/>](https://github.com/tangtaoshadow/spring-core/tree/beans_xml)
 
 >   🔷**note**: 基于**xml**实现依赖注入。
 
@@ -36,7 +36,7 @@
 
 
 
-##  beans_annotation [<img style="width:35px;display:inline;margin-bottom:10px;" src="https://www.promiselee.cn/share_static/files/github/github-logo.svg"/>](https://github.com/tangtaoshadow/spring-core/tree/beans_annotation)
+##  beans_annotation [<img style="width:35px;display:inline;margin-bottom:5px;" src="https://www.promiselee.cn/share_static/files/github/github-logo.svg"/>](https://github.com/tangtaoshadow/spring-core/tree/beans_annotation)
 
 >   🔷**note**: 基于注解实现依赖注入
 
