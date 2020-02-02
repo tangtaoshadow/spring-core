@@ -36,3 +36,18 @@
 
 
 
+##  beans_annotation [<img style="width:35px;display:inline;" src="https://www.promiselee.cn/share_static/files/github/github-logo.svg"/>](https://github.com/tangtaoshadow/spring-core/tree/beans_annotation)
+
+>   🔷**note**: 基于注解实现依赖注入
+
+#### release: 
+
+-   [beans_annotation-2020-2-3-003404](https://github.com/tangtaoshadow/spring-core/releases/tag/beans_annotation-2020-2-3-003404) 预发布版本 初步实现基于部分注解开发
+
+
+
+
+
+
+
+

@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 @Getter
 @Setter
 public class Student {
+
   private String name;
 
   @Autowired(required = false)
