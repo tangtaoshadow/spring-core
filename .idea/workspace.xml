@@ -3,12 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="249e14b9-8172-48ed-b4f3-e882a77f9c1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tao/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tao/pojo/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tao/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tao/pojo/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tao/pojo/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tao/pojo/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tao/pojo/Student.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +162,7 @@
       <workItem from="1580528693607" duration="303000" />
       <workItem from="1580529027978" duration="167000" />
       <workItem from="1580529245205" duration="3398000" />
-      <workItem from="1580632966324" duration="4736000" />
+      <workItem from="1580632966324" duration="5989000" />
     </task>
     <task id="LOCAL-00001" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 增加log4j&#10;updateTime: 2020-2-1 20:08:54">
       <created>1580558969195</created>
@@ -247,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580651723426</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 score.class&#10;updateTime: 2020-2-2 23:29:19">
+      <created>1580657369652</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1580657369652</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +287,8 @@
     <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: update &#10;updateTime: 2020-2-2 21:08:55" />
     <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 启用注解 自动装配&#10;updateTime: 2020-2-2 21:52:22" />
     <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 启用注解 自动装配&#10;updateTime: 2020-2-2 21:55:12" />
-    <option name="LAST_COMMIT_MESSAGE" value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 启用注解 自动装配&#10;updateTime: 2020-2-2 21:55:12" />
+    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 score.class&#10;updateTime: 2020-2-2 23:29:19" />
+    <option name="LAST_COMMIT_MESSAGE" value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 score.class&#10;updateTime: 2020-2-2 23:29:19" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springtaotest02$Demo.ic" NAME="Demo Coverage Results" MODIFIED="1580530266323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

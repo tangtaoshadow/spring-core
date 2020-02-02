@@ -1,5 +1,6 @@
 package com.tao.pojo;
 
+import javax.annotation.Resource;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -12,7 +13,9 @@ import org.springframework.beans.factory.annotation.Qualifier;
 public class Student {
   private String name;
 
-  @Autowired
+  @Autowired(required = false)
   @Qualifier(value = "demo02")
   private Demo demo;
+
+  @Resource private Score score;
 }
