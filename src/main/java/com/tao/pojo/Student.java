@@ -17,5 +17,6 @@ public class Student {
   @Qualifier(value = "demo02")
   private Demo demo;
 
-  @Resource private Score score;
+  @Resource(type = Score.class)
+  private Score score;
 }
