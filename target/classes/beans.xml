@@ -13,4 +13,6 @@
   <bean id="student01" class="com.tao.pojo.Student">
   </bean>
 
+  <bean id="demo02" class="com.tao.pojo.Demo" p:name="demo02" p:status="2">
+  </bean>
 </beans>
