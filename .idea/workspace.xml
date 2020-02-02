@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="249e14b9-8172-48ed-b4f3-e882a77f9c1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tao/dao/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tao/config/Taoconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tao/config/Taoconfig2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tao/pojo/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tao/pojo/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tao/pojo/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tao/pojo/Score.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tao/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tao/pojo/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tao/pojo/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tao/pojo/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tao/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tao/pojo/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MyTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +66,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tao.config" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -161,7 +168,7 @@
       <workItem from="1580528693607" duration="303000" />
       <workItem from="1580529027978" duration="167000" />
       <workItem from="1580529245205" duration="3398000" />
-      <workItem from="1580632966324" duration="10697000" />
+      <workItem from="1580632966324" duration="12900000" />
     </task>
     <task id="LOCAL-00001" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 增加log4j&#10;updateTime: 2020-2-1 20:08:54">
       <created>1580558969195</created>
@@ -296,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580663528278</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 @scope 注解&#10;updateTime: 2020-2-3 01:21:13">
+      <created>1580664082515</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1580664082515</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +349,8 @@
     <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: update something&#10;updateTime: 2020-2-3 00:57:08" />
     <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: update something&#10;updateTime: 2020-2-3 00:59:56" />
     <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 @component 注解&#10;updateTime: 2020-2-3 01:11:50" />
-    <option name="LAST_COMMIT_MESSAGE" value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 @component 注解&#10;updateTime: 2020-2-3 01:11:50" />
+    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 @scope 注解&#10;updateTime: 2020-2-3 01:21:13" />
+    <option name="LAST_COMMIT_MESSAGE" value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 @scope 注解&#10;updateTime: 2020-2-3 01:21:13" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springtaotest02$Demo.ic" NAME="Demo Coverage Results" MODIFIED="1580530266323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

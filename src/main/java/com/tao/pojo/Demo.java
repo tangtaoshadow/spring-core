@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Demo {
 
-  @Value("Demo @value")
+  @Value("Demo 01")
   private String name;
 
   private int status = -1;
