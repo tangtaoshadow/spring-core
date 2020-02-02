@@ -3,10 +3,12 @@ package com.tao.pojo;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+import org.springframework.stereotype.Component;
 
 @ToString
 @Getter
 @Setter
+@Component
 public class Demo {
   private String name;
   private int status = -1;

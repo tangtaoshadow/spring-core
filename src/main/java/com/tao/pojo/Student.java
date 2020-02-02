@@ -5,17 +5,17 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
 @ToString
 @Getter
 @Setter
+@Component
 public class Student {
 
   private String name;
 
   @Autowired(required = false)
-  @Qualifier(value = "demo02")
   private Demo demo;
 
   @Resource(type = Score.class)
