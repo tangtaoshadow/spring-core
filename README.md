@@ -8,7 +8,7 @@
 
 **CreateTime:**`2020-1-27 18:09:11`
 
-**UpdateTime:**`2020-2-1 23:23:35`
+**UpdateTime:**`2020-2-3 22:24:46`
 
 **Copyright:**  **唐涛** [HOME | 首页](https://www.promiselee.cn/tao) **©**  ***2020***  [<img style="width:35px;display:inline;" src="https://www.promiselee.cn/favicon.ico"/>](https://www.promiselee.cn/tao)   [<img style="width:25px;display:inline;margin-bottom:5px;" src="https://www.promiselee.cn/share_static/files/github/github-logo.svg"/>](https://github.com/tangtaoshadow/spring-core)
 
@@ -43,6 +43,7 @@
 #### release: 
 
 -   [beans_annotation-2020-2-3-003404](https://github.com/tangtaoshadow/spring-core/releases/tag/beans_annotation-2020-2-3-003404) 预发布版本 初步实现基于部分注解开发
+-   [beans_annotation-2020-2-3-222434](https://github.com/tangtaoshadow/spring-core/releases/tag/beans_annotation-2020-2-3-222434) 发布版本 实现基于注解开发，多种方式实现AOP
 
 
 
