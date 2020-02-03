@@ -16,8 +16,14 @@ public class Taoconfig {
 
   //  注入的bean 相当于 xml中的 <bean>
   @Bean
-  public Student getStudent() {
-    System.out.println("--- spring getStudent ---");
+  public Student getStudent1() {
+    System.out.println("--- spring getStudent 1 ---");
+    return new Student();
+  }
+
+  @Bean
+  public Student getStudent2() {
+    System.out.println("--- spring getStudent 2 ---");
     return new Student();
   }
 }

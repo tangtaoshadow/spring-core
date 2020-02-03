@@ -1,10 +1,12 @@
 import com.tao.config.Taoconfig;
 import com.tao.pojo.Demo;
 import com.tao.pojo.Student;
+import com.tao.service.AppleService;
 import java.util.logging.Logger;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MyTest {
   private static Logger log = Logger.getLogger(String.valueOf(MyTest.class));
@@ -27,5 +29,18 @@ public class MyTest {
       demo = (Demo) applicationContext.getBean("demo");
       log.info("demo hashCode:" + demo.hashCode() + "\n" + demo.toString());
     }
+  }
+
+  @Test
+  public void testAop01() {
+    ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");
+    AppleService appleService = applicationContext.getBean("appleService01", AppleService.class);
+    appleService.query();
+    System.out.println();
+
+    appleService.delete();
+    System.out.println();
+
+    appleService.update();
   }
 }
