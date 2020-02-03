@@ -4,7 +4,14 @@
   xmlns:aop="http://www.springframework.org/schema/aop"
   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
 
+
   <!-- 下面的代码完全可以使用注解代替 -->
-  <!-- 支持注解 -->
-  <aop:aspectj-autoproxy/>
+  <!-- 混合注解和xml实现 -->
+  <!-- 开启支持注解 -->
+  <!-- proxy-target-class= 默认值 false jdk 实现 如果为 true  cglib 实现 -->
+  <aop:aspectj-autoproxy proxy-target-class="false"/>
+  <!-- 注入 appleService -->
+  <bean id="appleService04" class="com.tao.service.AppleServiceImpl"/>
+  <!-- 注入切面 -->
+  <bean id="annotationPointCut01" class="com.tao.aop.AnnotationPointCut"/>
 </beans>

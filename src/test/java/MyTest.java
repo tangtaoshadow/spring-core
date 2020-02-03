@@ -36,6 +36,8 @@ public class MyTest {
   public void testAop01() {
     ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");
     AppleService appleService = applicationContext.getBean("appleService01", AppleService.class);
+    System.out.println("***********  testAop01  **********\n\n");
+
     appleService.query();
     System.out.println();
 
@@ -49,6 +51,8 @@ public class MyTest {
   public void testAop02() {
     ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans2.xml");
     AppleService appleService = applicationContext.getBean("appleService02", AppleService.class);
+    System.out.println("***********  testAop02  **********\n\n");
+
     appleService.query();
     System.out.println();
 
@@ -60,9 +64,28 @@ public class MyTest {
 
   @Test
   public void testAop03() {
+    //  纯注解实现 aop
     ApplicationContext applicationContext =
         new AnnotationConfigApplicationContext(Taoconfig3.class);
     AppleService appleService = applicationContext.getBean("appleServiceImpl", AppleService.class);
+    System.out.println("***********  testAop03  **********\n\n");
+
+    appleService.query();
+    System.out.println();
+
+    appleService.delete();
+    System.out.println();
+
+    appleService.update();
+  }
+
+  @Test
+  public void testAop04() {
+    //  注解+xml实现 aop
+    ApplicationContext applicationContext =
+        new ClassPathXmlApplicationContext("applicationContext.xml");
+    AppleService appleService = applicationContext.getBean("appleService04", AppleService.class);
+    System.out.println("***********  testAop04  **********\n\n");
     appleService.query();
     System.out.println();
 
