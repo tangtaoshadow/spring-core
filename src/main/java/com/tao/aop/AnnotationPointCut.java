@@ -6,6 +6,7 @@ import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.stereotype.Component;
 
@@ -13,6 +14,12 @@ import org.springframework.stereotype.Component;
 @Aspect
 @EnableAspectJAutoProxy
 public class AnnotationPointCut {
+
+  @Pointcut("execution(* com.tao.service.AppleServiceImpl.delete(..))")
+  public void pointCut() {
+    //  此处并不执行 它只是一个载体 用来承载 @PointCut 这个注解
+    System.out.println("~~~~~~~~   AnnotationPointCut pointCut delete   ~~~~~~~~");
+  }
 
   @Before("execution(* com.tao.service.AppleServiceImpl.*(..))")
   public void before() {
@@ -35,5 +42,10 @@ public class AnnotationPointCut {
     System.out.println("proceed: " + proceed);
     System.out.println("=========   AnnotationPointCut around end      ==========");
     //  函数完成后会执行 after
+  }
+
+  @Before("pointCut()")
+  public void beforePointCut() {
+    System.out.println("<<<<<<<<<<     beforePointCut     >>>>>>>>>>>");
   }
 }
