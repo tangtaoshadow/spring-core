@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="249e14b9-8172-48ed-b4f3-e882a77f9c1d" name="Default Changelist" comment="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 实现纯注解注入&#10;updateTime: 2020-2-3 01:56:17">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tao/aop/After.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tao/aop/Before.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tao/service/AppleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tao/service/AppleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tao/config/Taoconfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tao/config/Taoconfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tao/pojo/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tao/pojo/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tao/pojo/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tao/pojo/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tao/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tao/pojo/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core-tao.iml" afterDir="false" />
-    </list>
+    <list default="true" id="249e14b9-8172-48ed-b4f3-e882a77f9c1d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +159,7 @@
       <workItem from="1580721375238" duration="5394000" />
       <workItem from="1580727136689" duration="565000" />
       <workItem from="1580727733405" duration="2844000" />
-      <workItem from="1580730635839" duration="1074000" />
+      <workItem from="1580730635839" duration="1354000" />
     </task>
     <task id="LOCAL-00001" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 增加log4j&#10;updateTime: 2020-2-1 20:08:54">
       <created>1580558969195</created>
@@ -326,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580666188649</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 实现AOP 方式1 通过实现spring接口&#10;updateTime: 2020-2-3 20:12:44">
+      <created>1580731972776</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1580731972776</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +358,8 @@
     <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 @component 注解&#10;updateTime: 2020-2-3 01:11:50" />
     <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 @scope 注解&#10;updateTime: 2020-2-3 01:21:13" />
     <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 实现纯注解注入&#10;updateTime: 2020-2-3 01:56:17" />
-    <option name="LAST_COMMIT_MESSAGE" value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 实现纯注解注入&#10;updateTime: 2020-2-3 01:56:17" />
+    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 实现AOP 方式1 通过实现spring接口&#10;updateTime: 2020-2-3 20:12:44" />
+    <option name="LAST_COMMIT_MESSAGE" value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 实现AOP 方式1 通过实现spring接口&#10;updateTime: 2020-2-3 20:12:44" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springtaotest02$Demo.ic" NAME="Demo Coverage Results" MODIFIED="1580530266323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
