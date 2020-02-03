@@ -43,7 +43,7 @@
 #### release: 
 
 -   [beans_annotation-2020-2-3-003404](https://github.com/tangtaoshadow/spring-core/releases/tag/beans_annotation-2020-2-3-003404) 预发布版本 初步实现基于部分注解开发
--   [beans_annotation-2020-2-3-222434](https://github.com/tangtaoshadow/spring-core/releases/tag/beans_annotation-2020-2-3-222434) 发布版本 实现基于注解开发，多种方式实现AOP
+-   [beans_annotation-2020-2-3-222434](https://github.com/tangtaoshadow/spring-core/releases/tag/beans_annotation-2020-2-3-222434) 发布版本 实现基于注解开发，多种方式实现**AOP**
 
 
 

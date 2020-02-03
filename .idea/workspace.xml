@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75f59016-325f-44c9-b545-d7fb670193c1" name="Default Changelist" comment="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: 方式4 注解+xml 实现AOP拦截 testAop04&#10;updateTime: 2020-2-3 21:48:25">
+    <list default="true" id="75f59016-325f-44c9-b545-d7fb670193c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -125,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580732506362</updated>
       <workItem from="1580732511218" duration="4699000" />
-      <workItem from="1580737273415" duration="1433000" />
+      <workItem from="1580737273415" duration="2429000" />
     </task>
     <task id="LOCAL-00001" summary="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: update&#10;updateTime: 2020-2-3 20:25:03">
       <created>1580732744507</created>
@@ -155,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580737715658</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: 发布 beans_annotation-2020-2-3-222434&#10;updateTime: 2020-2-3 22:25:36">
+      <created>1580739948297</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580739948297</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +187,7 @@
     <MESSAGE value="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: 方式2 自定义类 实现AOP拦截&#10;updateTime: 2020-2-3 20:40:20" />
     <MESSAGE value="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: 方式3 出注解 实现AOP拦截 testAop03&#10;updateTime: 2020-2-3 21:13:01" />
     <MESSAGE value="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: 方式4 注解+xml 实现AOP拦截 testAop04&#10;updateTime: 2020-2-3 21:48:25" />
-    <option name="LAST_COMMIT_MESSAGE" value="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: 方式4 注解+xml 实现AOP拦截 testAop04&#10;updateTime: 2020-2-3 21:48:25" />
+    <MESSAGE value="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: 发布 beans_annotation-2020-2-3-222434&#10;updateTime: 2020-2-3 22:25:36" />
+    <option name="LAST_COMMIT_MESSAGE" value="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: 发布 beans_annotation-2020-2-3-222434&#10;updateTime: 2020-2-3 22:25:36" />
   </component>
 </project>
