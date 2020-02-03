@@ -125,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580732506362</updated>
       <workItem from="1580732511218" duration="4699000" />
-      <workItem from="1580737273415" duration="4912000" />
+      <workItem from="1580737273415" duration="7169000" />
     </task>
     <task id="LOCAL-00001" summary="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: update&#10;updateTime: 2020-2-3 20:25:03">
       <created>1580732744507</created>
@@ -169,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580740916365</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: 实现 @PointCut &#10;updateTime: 2020-2-3 23:43:23">
+      <created>1580744614078</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580744614078</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +203,7 @@
     <MESSAGE value="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: 方式4 注解+xml 实现AOP拦截 testAop04&#10;updateTime: 2020-2-3 21:48:25" />
     <MESSAGE value="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: 发布 beans_annotation-2020-2-3-222434&#10;updateTime: 2020-2-3 22:25:36" />
     <MESSAGE value="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: update&#10;updateTime: 2020-2-3 22:41:46" />
-    <option name="LAST_COMMIT_MESSAGE" value="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: update&#10;updateTime: 2020-2-3 22:41:46" />
+    <MESSAGE value="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: 实现 @PointCut &#10;updateTime: 2020-2-3 23:43:23" />
+    <option name="LAST_COMMIT_MESSAGE" value="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: 实现 @PointCut &#10;updateTime: 2020-2-3 23:43:23" />
   </component>
 </project>

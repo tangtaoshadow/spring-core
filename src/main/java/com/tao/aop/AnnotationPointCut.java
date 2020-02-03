@@ -18,6 +18,7 @@ public class AnnotationPointCut {
   @Pointcut("execution(* com.tao.service.AppleServiceImpl.delete(..))")
   public void pointCut() {
     //  此处并不执行 它只是一个载体 用来承载 @PointCut 这个注解
+    // !同时此方法名称还可以用在表达式上 代表引用了这个注解
     System.out.println("~~~~~~~~   AnnotationPointCut pointCut delete   ~~~~~~~~");
   }
 
