@@ -10,6 +10,7 @@
         http://www.springframework.org/schema/aop
         https://www.springframework.org/schema/aop/spring-aop.xsd">
 
+
   <!-- 开启注解 -->
   <context:annotation-config/>
   <context:component-scan base-package="com.tao.pojo"/>
@@ -18,7 +19,7 @@
   <bean id="aopBefore01" class="com.tao.aop.Before"/>
   <bean id="aopAfter01" class="com.tao.aop.After"/>
 
-<!-- 方式1 实现 spring 接口 -->
+  <!-- 方式1 实现 spring 接口 -->
   <aop:config>
     <!--  拦截 AppleServiceImpl 所有方法  -->
     <aop:pointcut id="pointcut01" expression="execution(* com.tao.service.AppleServiceImpl.*(..))"/>
@@ -27,7 +28,6 @@
     <aop:advisor advice-ref="aopAfter01" pointcut-ref="pointcut01"/>
 
   </aop:config>
-
 
 
 </beans>

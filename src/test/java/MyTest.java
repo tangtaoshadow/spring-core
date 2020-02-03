@@ -1,4 +1,5 @@
 import com.tao.config.Taoconfig;
+import com.tao.config.Taoconfig3;
 import com.tao.pojo.Demo;
 import com.tao.pojo.Student;
 import com.tao.service.AppleService;
@@ -48,6 +49,20 @@ public class MyTest {
   public void testAop02() {
     ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans2.xml");
     AppleService appleService = applicationContext.getBean("appleService02", AppleService.class);
+    appleService.query();
+    System.out.println();
+
+    appleService.delete();
+    System.out.println();
+
+    appleService.update();
+  }
+
+  @Test
+  public void testAop03() {
+    ApplicationContext applicationContext =
+        new AnnotationConfigApplicationContext(Taoconfig3.class);
+    AppleService appleService = applicationContext.getBean("appleServiceImpl", AppleService.class);
     appleService.query();
     System.out.println();
 

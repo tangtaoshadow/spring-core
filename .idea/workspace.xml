@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75f59016-325f-44c9-b545-d7fb670193c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tao/aop/CustomPointCut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/beans2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tao/aop/AnnotationPointCut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tao/config/Taoconfig3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tao/service/AppleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tao/service/AppleServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -33,6 +38,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
@@ -41,9 +47,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.startup.StartupConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tao.config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\program1\me\java\spring-core-tao\src\main\resources" />
     </key>
@@ -60,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.testAop02">
+  <component name="RunManager" selected="JUnit.MyTest.testAop03">
     <configuration name="MyTest.testAop01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-tao-core" />
       <option name="PACKAGE_NAME" value="" />
@@ -81,8 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyTest.testAop03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-tao-core" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="testAop03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.testAop03" />
         <item itemvalue="JUnit.MyTest.testAop02" />
         <item itemvalue="JUnit.MyTest.testAop01" />
       </list>
@@ -98,7 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580732506362</updated>
-      <workItem from="1580732511218" duration="934000" />
+      <workItem from="1580732511218" duration="2986000" />
     </task>
     <task id="LOCAL-00001" summary="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: update&#10;updateTime: 2020-2-3 20:25:03">
       <created>1580732744507</created>
@@ -107,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580732744507</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: 方式2 自定义类 实现AOP拦截&#10;updateTime: 2020-2-3 20:40:20">
+      <created>1580733631822</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580733631822</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +154,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: update&#10;updateTime: 2020-2-3 20:25:03" />
-    <option name="LAST_COMMIT_MESSAGE" value="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: update&#10;updateTime: 2020-2-3 20:25:03" />
+    <MESSAGE value="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: 方式2 自定义类 实现AOP拦截&#10;updateTime: 2020-2-3 20:40:20" />
+    <option name="LAST_COMMIT_MESSAGE" value="tangtao &lt;tangtao2099@outlook.com&gt;&#10;https://www.promiselee.cn/tao&#10;modify: 方式2 自定义类 实现AOP拦截&#10;updateTime: 2020-2-3 20:40:20" />
   </component>
 </project>
