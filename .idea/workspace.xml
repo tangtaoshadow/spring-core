@@ -1,68 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="249e14b9-8172-48ed-b4f3-e882a77f9c1d" name="Default Changelist" comment="" />
+    <list default="true" id="75f59016-325f-44c9-b545-d7fb670193c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/saveactions_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="242" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="springtaotest02" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="tangtao &lt;tangtao2099@outlook.com&gt;" />
-      </list>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1WtCREh6ILOnpg1n9LXbKiX7Z6V" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1XITFX8WnuTIo3ch9tRLXqBRuTD" />
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.tao.config" />
-    </key>
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.startup.StartupConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -76,26 +44,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.testAop01">
-    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="spring-core-tao" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-core-tao" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="MyTest.testAop01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-core-tao" />
+      <module name="spring-tao-core" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <option name="METHOD_NAME" value="testAop01" />
@@ -104,40 +55,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.testAutowire" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-core-tao" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="testAutowire" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest.testScope" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-core-tao" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="testScope" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.MyTest" />
-      <item itemvalue="JUnit.MyTest.test" />
-      <item itemvalue="JUnit.MyTest.testScope" />
-      <item itemvalue="JUnit.MyTest.testAutowire" />
-      <item itemvalue="JUnit.MyTest.testAop01" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MyTest.testAop01" />
-        <item itemvalue="JUnit.MyTest.test" />
-        <item itemvalue="JUnit.MyTest.testAutowire" />
-        <item itemvalue="JUnit.MyTest.testScope" />
-        <item itemvalue="Application.MyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -146,176 +66,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="249e14b9-8172-48ed-b4f3-e882a77f9c1d" name="Default Changelist" comment="" />
-      <created>1580526790191</created>
+      <changelist id="75f59016-325f-44c9-b545-d7fb670193c1" name="Default Changelist" comment="" />
+      <created>1580732506362</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1580526790191</updated>
-      <workItem from="1580526795386" duration="1864000" />
-      <workItem from="1580528693607" duration="303000" />
-      <workItem from="1580529027978" duration="167000" />
-      <workItem from="1580529245205" duration="3398000" />
-      <workItem from="1580632966324" duration="13230000" />
-      <workItem from="1580721375238" duration="5394000" />
-      <workItem from="1580727136689" duration="565000" />
-      <workItem from="1580727733405" duration="2844000" />
-      <workItem from="1580730635839" duration="1354000" />
+      <updated>1580732506362</updated>
+      <workItem from="1580732511218" duration="116000" />
     </task>
-    <task id="LOCAL-00001" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 增加log4j&#10;updateTime: 2020-2-1 20:08:54">
-      <created>1580558969195</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1580558969195</updated>
-    </task>
-    <task id="LOCAL-00002" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 增加Person&#10;updateTime: 2020-2-1 20:36:40">
-      <created>1580560615462</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1580560615463</updated>
-    </task>
-    <task id="LOCAL-00003" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 注入 Person&#10;updateTime: 2020-2-1 20:53:35">
-      <created>1580561633924</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1580561633924</updated>
-    </task>
-    <task id="LOCAL-00004" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 p-namespace&#10;updateTime: 2020-2-1 22:11:10">
-      <created>1580566280973</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1580566280973</updated>
-    </task>
-    <task id="LOCAL-00005" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 c-namespace&#10;updateTime: 2020-2-1 22:20:56">
-      <created>1580566871963</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1580566871964</updated>
-    </task>
-    <task id="LOCAL-00006" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 scope singleton prototype&#10;updateTime: 2020-2-1 22:41:28">
-      <created>1580568098926</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1580568098926</updated>
-    </task>
-    <task id="LOCAL-00007" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 Student.class&#10;updateTime: 2020-2-1 22:50:41">
-      <created>1580568652658</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1580568652659</updated>
-    </task>
-    <task id="LOCAL-00008" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 实现 byName 自动装配&#10;updateTime: 2020-2-1 22:57:31">
-      <created>1580569066770</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1580569066770</updated>
-    </task>
-    <task id="LOCAL-00009" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 发布 beans_xml_2020-2-1-232909&#10;updateTime: 2020-2-1 23:30:32">
-      <created>1580571049328</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1580571049328</updated>
-    </task>
-    <task id="LOCAL-00010" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: update &#10;updateTime: 2020-2-2 21:08:55">
-      <created>1580648951817</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1580648951817</updated>
-    </task>
-    <task id="LOCAL-00011" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 启用注解 自动装配&#10;updateTime: 2020-2-2 21:52:22">
-      <created>1580651554440</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1580651554440</updated>
-    </task>
-    <task id="LOCAL-00012" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 启用注解 自动装配&#10;updateTime: 2020-2-2 21:55:12">
-      <created>1580651723426</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1580651723426</updated>
-    </task>
-    <task id="LOCAL-00013" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 score.class&#10;updateTime: 2020-2-2 23:29:19">
-      <created>1580657369652</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1580657369652</updated>
-    </task>
-    <task id="LOCAL-00014" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 配置 @Resource 注解&#10;updateTime: 2020-2-2 23:49:34">
-      <created>1580658594972</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1580658594972</updated>
-    </task>
-    <task id="LOCAL-00015" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: @Resource type&#10;updateTime: 2020-2-3 00:28:31">
-      <created>1580660927048</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1580660927048</updated>
-    </task>
-    <task id="LOCAL-00016" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 发布 beans_annotation-2020-2-3-003404&#10;updateTime: 2020-2-3 00:35:29">
-      <created>1580661339986</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1580661339986</updated>
-    </task>
-    <task id="LOCAL-00017" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: update something&#10;updateTime: 2020-2-3 00:57:08">
-      <created>1580662637305</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1580662637305</updated>
-    </task>
-    <task id="LOCAL-00018" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: update something&#10;updateTime: 2020-2-3 00:59:56">
-      <created>1580662805606</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1580662805607</updated>
-    </task>
-    <task id="LOCAL-00019" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 @component 注解&#10;updateTime: 2020-2-3 01:11:50">
-      <created>1580663528278</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1580663528278</updated>
-    </task>
-    <task id="LOCAL-00020" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 @scope 注解&#10;updateTime: 2020-2-3 01:21:13">
-      <created>1580664082515</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1580664082515</updated>
-    </task>
-    <task id="LOCAL-00021" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 实现纯注解注入&#10;updateTime: 2020-2-3 01:56:17">
-      <created>1580666188649</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1580666188649</updated>
-    </task>
-    <task id="LOCAL-00022" summary="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 实现AOP 方式1 通过实现spring接口&#10;updateTime: 2020-2-3 20:12:44">
-      <created>1580731972776</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1580731972776</updated>
-    </task>
-    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,44 +83,10 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 增加log4j&#10;updateTime: 2020-2-1 20:08:54" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 增加Person&#10;updateTime: 2020-2-1 20:36:40" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 注入 Person&#10;updateTime: 2020-2-1 20:53:35" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 p-namespace&#10;updateTime: 2020-2-1 22:11:10" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 c-namespace&#10;updateTime: 2020-2-1 22:20:56" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 scope singleton prototype&#10;updateTime: 2020-2-1 22:41:28" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 Student.class&#10;updateTime: 2020-2-1 22:50:41" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 实现 byName 自动装配&#10;updateTime: 2020-2-1 22:57:31" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 发布 beans_xml_2020-2-1-232909&#10;updateTime: 2020-2-1 23:30:32" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: update &#10;updateTime: 2020-2-2 21:08:55" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 启用注解 自动装配&#10;updateTime: 2020-2-2 21:52:22" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 启用注解 自动装配&#10;updateTime: 2020-2-2 21:55:12" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 score.class&#10;updateTime: 2020-2-2 23:29:19" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 配置 @Resource 注解&#10;updateTime: 2020-2-2 23:49:34" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: @Resource type&#10;updateTime: 2020-2-3 00:28:31" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 发布 beans_annotation-2020-2-3-003404&#10;updateTime: 2020-2-3 00:35:29" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: update something&#10;updateTime: 2020-2-3 00:57:08" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: update something&#10;updateTime: 2020-2-3 00:59:56" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 @component 注解&#10;updateTime: 2020-2-3 01:11:50" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 添加 @scope 注解&#10;updateTime: 2020-2-3 01:21:13" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 实现纯注解注入&#10;updateTime: 2020-2-3 01:56:17" />
-    <MESSAGE value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 实现AOP 方式1 通过实现spring接口&#10;updateTime: 2020-2-3 20:12:44" />
-    <option name="LAST_COMMIT_MESSAGE" value="tangtao &#10;https://www.promiselee.cn/tao&#10;modify: 实现AOP 方式1 通过实现spring接口&#10;updateTime: 2020-2-3 20:12:44" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/springtaotest02$Demo.ic" NAME="Demo Coverage Results" MODIFIED="1580530266323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.tao.pojoTest.*</FILTER>
-    </SUITE>
   </component>
 </project>
