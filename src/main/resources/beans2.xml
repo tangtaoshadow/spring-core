@@ -14,20 +14,17 @@
   <context:annotation-config/>
   <context:component-scan base-package="com.tao.pojo"/>
 
-  <bean id="appleService01" class="com.tao.service.AppleServiceImpl"/>
-  <bean id="aopBefore01" class="com.tao.aop.Before"/>
-  <bean id="aopAfter01" class="com.tao.aop.After"/>
+  <bean id="appleService02" class="com.tao.service.AppleServiceImpl"/>
 
-<!-- 方式1 实现 spring 接口 -->
+  <bean id="custompointcut01" class="com.tao.aop.CustomPointCut" />
+
+<!-- 方式2 自定义类 实现拦截 -->
   <aop:config>
-    <!--  拦截 AppleServiceImpl 所有方法  -->
-    <aop:pointcut id="pointcut01" expression="execution(* com.tao.service.AppleServiceImpl.*(..))"/>
-
-    <aop:advisor advice-ref="aopBefore01" pointcut-ref="pointcut01"/>
-    <aop:advisor advice-ref="aopAfter01" pointcut-ref="pointcut01"/>
-
+    <aop:aspect ref="custompointcut01">
+      <aop:pointcut id="pointcut02" expression="execution(* com.tao.service.AppleServiceImpl.*(..))"/>
+      <aop:before method="before"  pointcut-ref="pointcut02"/>
+      <aop:after method="after"  pointcut-ref="pointcut02"/>
+    </aop:aspect>
   </aop:config>
-
-
 
 </beans>

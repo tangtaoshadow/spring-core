@@ -43,4 +43,17 @@ public class MyTest {
 
     appleService.update();
   }
+
+  @Test
+  public void testAop02() {
+    ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans2.xml");
+    AppleService appleService = applicationContext.getBean("appleService02", AppleService.class);
+    appleService.query();
+    System.out.println();
+
+    appleService.delete();
+    System.out.println();
+
+    appleService.update();
+  }
 }
